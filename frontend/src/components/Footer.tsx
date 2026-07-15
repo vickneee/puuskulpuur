@@ -8,7 +8,7 @@ const FB_URL = import.meta.env.VITE_FACEBOOK_URL ?? "https://www.facebook.com/pu
 const Footer = () => {
   const { t } = useLanguage();
   return (
-    <footer className="py-10 px-6 border-t border-border">
+    <footer className="py-6 sm:py-10 px-6 border-t border-border">
       <div className="max-w-6xl mx-auto grid grid-cols-1 gap-4 sm:grid-cols-3 sm:items-center">
 
         <div className="flex items-center justify-center sm:justify-start">
