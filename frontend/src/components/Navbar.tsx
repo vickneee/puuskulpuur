@@ -53,9 +53,9 @@ const Navbar = ({onNavigate}: NavbarProps) => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-md border-b border-border/50">
             <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-                <div className="flex items-center justify-center gap-1 sm:gap-6">
+                <div className="flex items-center gap-1 sm:gap-6">
                     <button type="button" onClick={() => onNavigate("hero")}
-                            className="font-display text-xl font-bold text-foreground hover:text-accent transition-colors pointer-events-auto">
+                            className="mb-0.5 font-display text-xl font-bold text-foreground hover:text-accent transition-colors pointer-events-auto">
                         Puuskulptuur
                     </button>
                     <a href={FB_URL} target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"
