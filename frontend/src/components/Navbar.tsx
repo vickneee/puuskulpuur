@@ -53,7 +53,7 @@ const Navbar = ({onNavigate}: NavbarProps) => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-md border-b border-border/50">
             <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-                <div className="flex items-center justify-center gap-2 sm:gap-4">
+                <div className="flex items-center justify-center gap-1 sm:gap-4">
                     <button type="button" onClick={() => onNavigate("hero")}
                             className="font-display text-xl font-bold text-foreground hover:text-accent transition-colors pointer-events-auto">
                         Puuskulptuur
@@ -67,7 +67,7 @@ const Navbar = ({onNavigate}: NavbarProps) => {
                         </svg>
                     </a>
                 </div>
-                <div className="flex items-center gap-4 sm:gap-6">
+                <div className="flex items-center gap-1 sm:gap-4">
                     {/* mobile menu button */}
                     <button type="button" onClick={() => setMobileOpen((v) => !v)}
                             aria-label={mobileOpen ? "Close menu" : "Open menu"}
