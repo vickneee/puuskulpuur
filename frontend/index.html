@@ -67,9 +67,9 @@
     <!-- Preload the hero image so the browser can prioritise fetching it (helps LCP).
          NOTE: in some build setups assets are fingerprinted; this path is helpful in dev
          and many static deployments. If you use a different path in production, update accordingly. -->
-    <link rel="preload" as="image" href="/src/assets/hero-new.jpg" />
-    <link rel="preload" as="image" href="/src/assets/about-me.jpg" />
-    <link rel="preload" as="image" href="/src/assets/contact-1.jpg" />
+    <link rel="preload" as="image" href="src/assets/hero.jpg" />
+    <link rel="preload" as="image" href="src/assets/about-me.jpg" />
+    <link rel="preload" as="image" href="src/assets/contact-1.jpg" />
     <link rel="canonical" href="https://puuskulptuur.com/" />
     <link rel="alternate" hreflang="et" href="https://puuskulptuur.com/" />
     <link rel="alternate" hreflang="en" href="https://puuskulptuur.com/en/" />
@@ -98,6 +98,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
